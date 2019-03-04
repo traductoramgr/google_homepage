@@ -1,0 +1,72 @@
+html {
+    text-align: center;
+    font-size: small;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: "Arial", sans-serif;
+}
+.top, .bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+li {
+    display: inline;
+  }
+.top{
+    text-align: right;
+}
+.bottom{
+    text-align: left;
+}
+image {
+    vertical-align: middle;
+}
+.china {
+    color: #1a0dab;
+}
+.taiwan {
+    font-size: 15px;
+}
+.button {
+    color: #636262;
+    background-color: #ededed;
+    outline: none;
+    border:0px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    }
+.button:hover {
+    border: 1px solid #c5c4c4;
+    color: #020202;
+    outline: none;
+    border-radius: 5px;
+}
+.search {
+    color: black;
+    background-color: transparent;
+    outline: none;
+    border:1px solid #dbdbdb;
+    padding: 5px 20px;
+    text-align: left;
+    font-family: "Arial" sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    line-height: 34px;
+    height: 34px !important;
+    width: 540px;
+    }
+.search:hover, .search:active {
+    border: 2px solid #ededed;
+    outline: none;
+    color: #020202;
+}
